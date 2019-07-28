@@ -1,0 +1,5 @@
+repositories/
+cloc.pl
+*.json
+*.csv
+/*.html
