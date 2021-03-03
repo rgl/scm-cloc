@@ -34,7 +34,7 @@ def visit_repo(url, credentials, visitor):
     repo = fetch_repo(url, credentials)
 
     # gather all branch names.
-    branch_names = [r.split('/', 1) for r in repo.branches.remote if r.startswith('origin/')]
+    branch_names = [r.split('/', 1) for r in repo.branches.remote if r.startswith('origin/') and r != 'origin/HEAD']
 
     # make sure we have a local branch for each remote branch.
     for remote_name, branch_name in branch_names:

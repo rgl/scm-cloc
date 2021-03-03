@@ -6,7 +6,7 @@ Install dependencies:
 
 ```bash
 python3 -m pip install -r requirements.txt
-wget -qO cloc.pl https://raw.githubusercontent.com/AlDanial/cloc/master/cloc
+wget -qO cloc.pl https://github.com/AlDanial/cloc/releases/download/1.88/cloc-1.88.pl
 ```
 
 Install extra dependencies on Windows:
